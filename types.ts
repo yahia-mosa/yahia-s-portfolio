@@ -12,6 +12,7 @@ export interface Project {
   solutions?: string[];
   tags: string[];
   link?: string;
+  githubUrl?: string;
   imageUrl: string;
   screenshots?: string[];
 }

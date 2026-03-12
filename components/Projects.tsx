@@ -190,7 +190,7 @@ const Projects: React.FC = () => {
                       </a>
                     )}
                     <a
-                      href={PERSONAL_INFO.socials.github}
+                      href={selectedProject.githubUrl || PERSONAL_INFO.socials.github}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-3 py-4 bg-white border-2 border-slate-100 text-slate-800 rounded-2xl font-bold hover:bg-slate-50 hover:border-slate-200 transition-all active:scale-95"

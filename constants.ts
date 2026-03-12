@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
   whatsapp: "https://wa.me/201110666420",
   socials: {
     linkedin: "https://linkedin.com/in/yahia-mohamedd",
-    github: "https://github.com/yahia",
+    github: "https://github.com/yahia-mosa",
     twitter: "https://twitter.com/yahia"
   },
   resume: "https://drive.google.com/file/d/1DLdFDyL39bto_XaZKh5xFx3tjqb9UMiZ/view?usp=drivesdk"
@@ -220,6 +220,7 @@ export const PROJECTS_DATA: Project[] = [
     architectureApproach: "Followed Clean Architecture principles, implementing JWT auth, role-based access control, and real-time dashboards. Deployed using Docker and SQL Server.",
     impact: "Reflected the ability to design enterprise-grade business systems with integrated AI intelligence and production-ready deployment.",
     tags: ["React", "TypeScript", "ASP.NET Core 8", "EF Core", "SQL Server", "JWT", "Docker", "Gemini API"],
+    githubUrl: "https://github.com/yahia-mosa/SalesPulseAI",
     imageUrl: "/screenshots/salespulse/dashboard.png",
     screenshots: [
       "/screenshots/salespulse/dashboard.png",
