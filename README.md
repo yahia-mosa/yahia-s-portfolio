@@ -9,6 +9,8 @@
 [![Resume](https://img.shields.io/badge/Resume-View%20Resume-green?style=flat-square&logo=googledrive)](https://drive.google.com/file/d/1B9FW1MKniaLD_-q6OI1l_2VaMKCdiaVT/view?usp=drive_link)
 
 **Architecting Scalable, AI-Integrated Systems — From Concept to Deployment**
+
+![Portfolio Hero](public/image.png)
 </div>
 
 ---
@@ -18,8 +20,6 @@
 I'm a results-oriented **Full-Stack .NET Developer** specializing in the design and development of scalable, high-performance systems and AI-powered applications. My expertise spans modern frontend development, robust backend architecture, and seamless artificial intelligence integration.
 
 I architect and deliver end-to-end solutions that align technical excellence with real-world business requirements, emphasizing clean architecture principles, system scalability, security best practices, and production-grade reliability.
-
-![Portfolio Hero](public/screenshots/portfolio-hero.png)
 
 ---
 
@@ -42,30 +42,22 @@ An intelligent healthcare system (ITIDA Sponsored) for early disease prediction 
 - **Tech:** Python, TensorFlow, React Native, Firebase, REST APIs.
 - **Impact:** Predicted diabetes and heart disease with 98%+ accuracy.
 
-![Healthcare Assistant](public/healthcare-assistant.png)
-
 ### 💼 SalesPulse AI – CRM Platform
 Scalable full-stack CRM and sales intelligence platform with AI-driven forecasting.
 - **Tech:** React, TypeScript, ASP.NET Core 8, EF Core, SQL Server, JWT, Docker, Gemini API.
 - **Features:** Clean Architecture, JWT auth, and Gemini-powered forecasting.
 - **GitHub:** [github.com/yahia-mosa/SalesPulseAI](https://github.com/yahia-mosa/SalesPulseAI)
 
-![SalesPulse Dashboard](public/screenshots/salespulse/dashboard.png)
-
 ### 💰 MoneyMate – AI Finance Platform
 AI-powered financial management platform for tracking income, expenses, and budgeting goals.
 - **Tech:** React, .NET 8, SQL Server, JWT, EF Core, REST APIs, Gemini API.
 - **Features:** Predictive budgeting and multilingual support (RTL).
-
-![MoneyMate Dashboard](public/screenshots/moneymate/dashboard.png)
 
 ### 🍔 Bites – Food Ordering Platform
 Modern full-stack food ordering web application featuring real-time order tracking via SignalR WebSockets.
 - **Tech:** .NET 10, ASP.NET Core, Entity Framework Core, SQL Server, React 19, Redux Toolkit, SignalR, Stripe, JWT, TailwindCSS.
 - **Features:** Customer and admin interfaces, real-time order tracking, payment processing.
 - **GitHub:** [github.com/yahia-mosa/Bites](https://github.com/yahia-mosa/Bites)
-
-![Bites Dashboard](public/screenshots/bites/dashboard.png)
 
 ---
 
