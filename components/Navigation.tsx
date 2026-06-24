@@ -31,8 +31,8 @@ const Navigation: React.FC = () => {
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <a href="#" className="group relative text-2xl font-bold text-slate-900 tracking-tight flex items-center gap-1">
-          <span className="bg-gradient-to-r from-indigo-600 to-cyan-500 w-8 h-8 rounded-lg flex items-center justify-center text-sm mr-2 shadow-md shadow-indigo-500/20 text-white transition-all">
-            {PERSONAL_INFO.name.charAt(0)}
+          <span className="bg-gradient-to-r from-indigo-600 to-cyan-500 w-8 h-8 rounded-lg flex items-center justify-center text-xs mr-2 shadow-md shadow-indigo-500/20 text-white transition-all">
+            YM
           </span>
           {PERSONAL_INFO.name}<span className="text-cyan-500">.</span>
         </a>

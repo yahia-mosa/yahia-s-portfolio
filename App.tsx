@@ -25,7 +25,6 @@ function App() {
       <div className="fixed top-0 left-0 w-full h-full pointer-events-none z-0">
         <div className="absolute top-[-10%] left-[-10%] w-[800px] h-[800px] bg-indigo-100/40 rounded-full blur-[120px] opacity-60 mix-blend-multiply"></div>
         <div className="absolute bottom-[-10%] right-[-10%] w-[800px] h-[800px] bg-cyan-100/40 rounded-full blur-[120px] opacity-60 mix-blend-multiply"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.02] pointer-events-none"></div>
       </div>
     </div >
   );

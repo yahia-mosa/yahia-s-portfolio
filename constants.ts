@@ -14,7 +14,7 @@ export const PERSONAL_INFO = {
     github: "https://github.com/yahia-mosa",
     twitter: "https://twitter.com/yahia"
   },
-  resume: "https://drive.google.com/file/d/1DLdFDyL39bto_XaZKh5xFx3tjqb9UMiZ/view?usp=drivesdk"
+  resume: "https://drive.google.com/file/d/1B9FW1MKniaLD_-q6OI1l_2VaMKCdiaVT/view?usp=drive_link"
 };
 
 export const EXECUTIVE_SUMMARY = `I am a results-oriented Full-Stack .NET Developer specializing in the design and development of scalable, high-performance systems and AI-powered applications. My expertise spans modern frontend development, robust backend architecture, and seamless artificial intelligence integration.
@@ -22,6 +22,14 @@ export const EXECUTIVE_SUMMARY = `I am a results-oriented Full-Stack .NET Develo
 I architect and deliver end-to-end solutions that align technical excellence with real-world business requirements. My approach emphasizes clean architecture principles, system scalability, security best practices, and production-grade reliability.
 
 From initial concept to deployment, I build secure, maintainable, and intelligent digital systems engineered for long-term performance and growth.`;
+
+export const ABOUT_SUMMARY = `Full-Stack .NET Developer with hands-on experience in designing, developing, and deploying scalable web applications using ASP.NET Core, .NET MVC, Web API, React, SQL Server, and Entity Framework Core. Experienced in building secure, database-driven applications, implementing RESTful APIs, and creating responsive user interfaces with modern front-end technologies.
+
+Strong background in software engineering principles, including Clean Architecture, SOLID principles, design patterns, and object-oriented programming, enabling the development of maintainable and high-quality solutions. Skilled in integrating Artificial Intelligence and Machine Learning models into real-world applications, with experience in healthcare-focused systems involving disease prediction and intelligent decision support.
+
+Familiar with DevOps and cloud-oriented practices, including Docker containerization, Git version control, CI/CD concepts, and application deployment workflows. Adept at problem-solving, debugging, and collaborating within Agile development environments to deliver efficient and user-focused software products.
+
+Passionate about continuous learning, emerging technologies, and building innovative solutions that create real business value. Seeking opportunities to contribute technical expertise, software development skills, and a growth mindset to high-impact engineering teams while continuing to expand knowledge in full-stack development, cloud technologies, and AI-powered applications.`;
 
 export const SKILLS_DATA = {
   software_engineering: ["Clean Architecture", "OOP", "SOLID", "Design Patterns", "System Design"],
@@ -63,21 +71,22 @@ export const USP_ITEMS: USPItem[] = [
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
     id: 1,
-    role: "Full-Stack & .NET Intensive Training (DEPI)",
-    company: "Ministry of Communications and Information Technology (MCIT)",
-    period: "Nov 2025 - Present",
-    description: "A government-sponsored national ICT development program designed to prepare high-caliber technology professionals in alignment with Egypt’s digital transformation strategy.",
+    role: "Full-Stack .NET Web Developer Trainee",
+    company: "Digital Egypt Pioneers Initiative (DEPI), Ministry of Communications and Information Technology (MCIT)",
+    period: "Sep 2025 – Jun 2026",
+    description: "Government-sponsored intensive training program focused on full-stack .NET development, modern web technologies, and enterprise software engineering practices.",
     details: [
-      "Designed and developed scalable full-stack applications.",
-      "Built RESTful APIs and integrated frontend with backend services.",
-      "Applied Clean Architecture principles and SOLID design principles.",
-      "Implemented secure authentication and authorization mechanisms.",
-      "Worked with relational databases and optimized queries.",
-      "Followed Agile methodology in team-based project environments.",
-      "Strengthened problem-solving and system design thinking."
+      "Built full-stack web applications using ASP.NET Core, .NET Core MVC, Web API, C#, SQL Server, HTML5, CSS3, and JavaScript.",
+      "Applied Docker containerization and Git/GitHub version control practices, delivering a capstone project integrating back-end APIs with front-end MVC architecture.",
+      "Completed intensive training in C#, .NET Core Web API, MVC, SQL Server, Docker, Git, Prompt Engineering, Unit Testing, and Functional Documentation.",
+      "Developed Business English, freelancing, and portfolio-building skills.",
+      "Delivered freelance web development and database design projects through LinkedIn Services:",
+      "  Developed a responsive personal portfolio website with a Bento-style layout, animations, and SEO optimization (React, Tailwind CSS, JavaScript).",
+      "  Built a premium 'Coming Soon' landing page for Flavora with a countdown timer, email subscription, and interactive animations (React, Tailwind CSS, Framer Motion).",
+      "  Designed a fully normalized (3NF) database for an e-commerce clothing platform, including ERD documentation, SQL scripts, constraints, and indexing strategies (MySQL, PostgreSQL, SQL)."
     ],
-    techStack: ["ASP.NET Core", "React.js", "SQL Server", "RESTful APIs", "Git", "Clean Architecture"],
-    impact: "This program enhanced my ability to architect production-ready systems and integrate AI-driven features into scalable enterprise-level applications."
+    techStack: ["ASP.NET Core", ".NET Core MVC", "Web API", "C#", "SQL Server", "Docker", "Git", "React", "Tailwind CSS", "Framer Motion", "MySQL", "PostgreSQL"],
+    impact: "This comprehensive training program equipped me with enterprise-grade full-stack .NET development skills, practical DevOps experience, and real-world freelance project delivery capabilities."
   },
   {
     id: 3,
@@ -115,7 +124,8 @@ export const COURSES_DATA: Course[] = [
     provider: "IBM SkillsBuild",
     year: "Nov 2025",
     description: "Foundational mastery of AI concepts, neural networks, and their practical application in solving complex engineering problems.",
-    tags: ["AI", "Neural Networks", "IBM"]
+    tags: ["AI", "Neural Networks", "IBM"],
+    link: "https://drive.google.com/file/d/1_SOuADe-zwqrj-TfAePLSLhFuqIX0AOf/view?usp=drive_link"
   },
   {
     id: 2,
@@ -123,7 +133,8 @@ export const COURSES_DATA: Course[] = [
     provider: "IBM SkillsBuild",
     year: "Oct 2025",
     description: "Comprehensive training in modern web standards, focusing on high-performance frontend and backend delivery.",
-    tags: ["Web", "Full-Stack", "IBM"]
+    tags: ["Web", "Full-Stack", "IBM"],
+    link: "https://drive.google.com/file/d/1UFnTYjoE57_qiOXdfxUmX9LqEkFqlw6Y/view?usp=drive_link"
   },
   {
     id: 3,
@@ -131,7 +142,8 @@ export const COURSES_DATA: Course[] = [
     provider: "Udemy – OCSALY Academy",
     year: "Sep 2025",
     description: "In-depth coverage of fundamental data structures and object-oriented programming paradigms using modern C++.",
-    tags: ["C++", "OOP", "Data Structures"]
+    tags: ["C++", "OOP", "Data Structures"],
+    link: "https://drive.google.com/file/d/13RfcMl_9fdlia_JOfiN3oTtbUH01-mrj/view?usp=drive_link"
   },
   {
     id: 4,
@@ -139,7 +151,8 @@ export const COURSES_DATA: Course[] = [
     provider: "Udemy – Sayman Creative Institute",
     year: "Sep 2025",
     description: "End-to-end JavaScript development covering frontend, backend, and API integration for full-stack applications.",
-    tags: ["JavaScript", "Full-Stack", "Node.js"]
+    tags: ["JavaScript", "Full-Stack", "Node.js"],
+    link: "https://drive.google.com/file/d/1QaxZofLU8yxpMfNYnAqErXWGJlx28dAp/view?usp=drive_link"
   },
   {
     id: 5,
@@ -147,7 +160,17 @@ export const COURSES_DATA: Course[] = [
     provider: "Udemy – PROPER DOT INSTITUTE",
     year: "Sep 2025",
     description: "Practical training in modern responsive web design and component-based frontend development with React.",
-    tags: ["CSS", "Bootstrap", "React"]
+    tags: ["CSS", "Bootstrap", "React"],
+    link: "https://drive.google.com/file/d/1KuONKoCTIz0nsoDiJn2vF2G39okFvaiF/view?usp=drive_link"
+  },
+  {
+    id: 55,
+    title: "CSS, JavaScript And Python Complete Course",
+    provider: "Udemy – PROPER DOT INSTITUTE",
+    year: "Sep 2025",
+    description: "Comprehensive course covering CSS, JavaScript, and Python fundamentals for full-stack development.",
+    tags: ["CSS", "JavaScript", "Python"],
+    link: "https://drive.google.com/file/d/1iejB9FeFUqj9XPew5d1o2BPvFg_V7TSm/view?usp=drive_link"
   },
   {
     id: 6,
@@ -155,7 +178,8 @@ export const COURSES_DATA: Course[] = [
     provider: "DeepLearning.AI (Coursera)",
     year: "Mar 2025",
     description: "Advanced techniques for processing and understanding human language using state-of-the-art deep learning models.",
-    tags: ["NLP", "Deep Learning", "AI"]
+    tags: ["NLP", "Deep Learning", "AI"],
+    link: "https://drive.google.com/file/d/1DW608k8E4iLX3JN2aQAv4Dfo_NpgPiK-/view?usp=drive_link"
   },
   {
     id: 7,
@@ -163,7 +187,8 @@ export const COURSES_DATA: Course[] = [
     provider: "Cisco Networking Academy",
     year: "Feb 2025",
     description: "Essential knowledge in securing enterprise systems, protecting data flows, and understanding threat landscapes.",
-    tags: ["Security", "Networking", "Cisco"]
+    tags: ["Security", "Networking", "Cisco"],
+    link: "https://drive.google.com/file/d/1j2eqHDYg6XvQUhajphC9QUB4pZRHlJ9y/view?usp=drive_link"
   },
   {
     id: 8,
@@ -171,7 +196,8 @@ export const COURSES_DATA: Course[] = [
     provider: "Univ. of Colorado Boulder (Coursera)",
     year: "Dec 2024",
     description: "Algorithms and statistical techniques for extracting valuable insights from large and complex datasets.",
-    tags: ["Data Mining", "Algorithms", "Coursera"]
+    tags: ["Data Mining", "Algorithms", "Coursera"],
+    link: "https://drive.google.com/file/d/1x47vEPBF8PQ8Yx6zP3PCtu8MGB6PBBXZ/view?usp=drive_link"
   },
   {
     id: 9,
@@ -179,7 +205,8 @@ export const COURSES_DATA: Course[] = [
     provider: "Univ. of Colorado Boulder (Coursera)",
     year: "Nov 2024",
     description: "Advanced relational and non-relational database design, query optimization, and performance engineering.",
-    tags: ["Databases", "SQL", "Coursera"]
+    tags: ["Databases", "SQL", "Coursera"],
+    link: "https://drive.google.com/file/d/1DbVZtNczrE_zo8YA_rtEMUFtNUHw1hk7/view?usp=drive_link"
   },
   {
     id: 10,
@@ -187,7 +214,8 @@ export const COURSES_DATA: Course[] = [
     provider: "Arab Institute for Advanced Technology (AOI Academy)",
     year: "Aug 2024",
     description: "Comprehensive cybersecurity training covering network security, threat analysis, and digital defense strategies.",
-    tags: ["Cyber Security", "AOI"]
+    tags: ["Cyber Security", "AOI"],
+    link: "https://drive.google.com/file/d/1bKkhnKawCpfqV668jcnvX7yQMW0qiqgQ/view?usp=drive_link"
   },
   {
     id: 11,
@@ -195,7 +223,8 @@ export const COURSES_DATA: Course[] = [
     provider: "Telecom Egypt (WE) — 198 Hours",
     year: "Sep 2023",
     description: "Intensive 198-hour professional training in server-side development using PHP and the Laravel framework.",
-    tags: ["PHP", "Laravel", "Full-Stack"]
+    tags: ["PHP", "Laravel", "Full-Stack"],
+    link: "https://drive.google.com/file/d/1PQe-wxdqcqiX1j6NoJtmTko0yDHA78Yw/view?usp=drive_link"
   }
 ];
 
@@ -247,6 +276,26 @@ export const PROJECTS_DATA: Project[] = [
       "/screenshots/moneymate/budget.png",
       "/screenshots/moneymate/assistant.png",
       "/screenshots/moneymate/profile.png"
+    ]
+  },
+  {
+    id: 4,
+    title: "Bites – Food Ordering Platform",
+    description: "Modern full-stack food ordering web application featuring real-time order tracking via SignalR WebSockets with customer and admin interfaces.",
+    problem: "Restaurants needed a comprehensive digital solution for online food ordering with real-time order tracking and efficient management capabilities.",
+    solution: "Built a complete food ordering system with customer features like menu browsing, shopping cart, and order tracking, plus an admin dashboard for managing products, categories, and orders with live notifications.",
+    architectureApproach: "Implemented a full-stack architecture using .NET 10 Web API backend with Entity Framework Core and SQL Server, React 19 frontend with Redux Toolkit for state management, and SignalR for real-time WebSocket communication. Integrated Stripe for payment processing and ASP.NET Identity with JWT for secure authentication.",
+    impact: "Delivered a production-ready food ordering platform with real-time capabilities, demonstrating expertise in full-stack development, real-time communication, and modern web technologies.",
+    tags: [".NET 10", "ASP.NET Core", "Entity Framework Core", "SQL Server", "React 19", "Redux Toolkit", "SignalR", "Stripe", "JWT", "TailwindCSS"],
+    githubUrl: "https://github.com/yahia-mosa/Bites",
+    imageUrl: "/screenshots/bites/dashboard.png",
+    screenshots: [
+      "/screenshots/bites/dashboard.png",
+      "/screenshots/bites/menu.png",
+      "/screenshots/bites/cart.png",
+      "/screenshots/bites/order-tracking.png",
+      "/screenshots/bites/admin-dashboard.png",
+      "/screenshots/bites/login.png"
     ]
   }
 ];

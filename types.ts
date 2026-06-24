@@ -43,6 +43,7 @@ export interface Course {
   description: string;
   tags: string[];
   imageUrl?: string;
+  link?: string;
 }
 
 export interface ChatMessage {
